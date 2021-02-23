@@ -110,8 +110,8 @@
     max-height:20%;
     }
     .box{
-		width: 100%;
-		height: 600px;
+		width: 100vw;
+		height: 100vh;
 		padding: 40px 60px;
 		color: white;
 		font-family: sans-serif;
@@ -119,6 +119,9 @@
 	}
 
 	.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     background-image: url(https://steamuserimages-a.akamaihd.net/ugc/950722034602476251/6C57971460FC317FD6796093BC28C3C835FA5CE8/);
     background-attachment: fixed;
@@ -130,16 +133,15 @@
   .section-text{
 		background:whitesmoke;
     background-size: cover;
-    height: 120vh;
+    height: 1300px;
     scroll-behavior: smooth;
 	}
   .section-projects{
     background:whitesmoke;
     background-size: cover;
-    height: 260vh;
+    height: 2600px;
     scroll-behavior: smooth;
   }
-
 
 	.section-2{
       height: 100vh;
@@ -188,7 +190,9 @@
 }
 
 .start {
-  
+ 
+  align-self: center;
+  justify-content: center;
   padding: 15px 25px;
   font-size: 24px;
   text-align: center;
@@ -199,8 +203,7 @@
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
-  position: relative;
-    
+  position: static;
 }
 
 .start:hover {background-color: #c0263afa}
