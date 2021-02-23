@@ -120,8 +120,7 @@
 
 	.section-1{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
     height: 100vh;
     background-image: url(https://steamuserimages-a.akamaihd.net/ugc/950722034602476251/6C57971460FC317FD6796093BC28C3C835FA5CE8/);
     background-attachment: fixed;
@@ -180,20 +179,9 @@
   
   h3{font-family:Arial,Helvetica,sans-serif;font-weight:700; font-size:2em;}
   h4{font-family:Arial,Helvetica,sans-serif;font-weight:700; font-size:1em; margin:0;}
-  h1{font-size:2em; line-height:3em;margin-bottom:1em; margin-right: auto; color:#ab2537fa; text-shadow: -1px 1px 2px #000,
-    1px 1px 2px #000,
-    1px -1px 0 #000,
-    -1px -1px 0 #000;
-  position: absolute;
-  bottom: 8em;
-  left: 25em;
-}
+  
 
 .start {
- 
-  align-self: center;
-  justify-content: center;
-  padding: 15px 25px;
   font-size: 24px;
   text-align: center;
   cursor: pointer;
@@ -204,6 +192,18 @@
   border-radius: 15px;
   box-shadow: 0 9px #999;
   position: static;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
+
 }
 
 .start:hover {background-color: #c0263afa}
